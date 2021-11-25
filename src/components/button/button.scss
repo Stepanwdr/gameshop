@@ -1,0 +1,22 @@
+.btn{
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  &--primary{
+background-color:rgb(85,88,257);
+  }
+  &--secondary{
+background-color: rgb(88,82,84);
+  }
+
+  &--small{
+    font-size: 14px;
+  }
+  &--medium{
+    font-size: 18px;
+  }
+}
+
+

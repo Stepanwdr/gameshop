@@ -1,12 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import "./index.scss"
+import { BrowserRouter as Router } from "react-router-dom";
+import {applyMiddleware, compose, createStore} from "redux";
+import {Provider} from "react-redux";
+import reducers from "./store/reducer";
+import {requestMiddleware} from "./helpers/redux-request";
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store=createStore(
+    reducers,
+    composeEnhancers(applyMiddleware(requestMiddleware)),
+)
+requestMiddleware.on.fail = ((err) => {
+    if (err.response) {
+        return err.response;
+    }
+    throw err;
+});
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+      <Router>
+          <App />
+      </Router>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,35 @@
+.cart-menu{
+  position: absolute;
+  top: 30px;
+  left: -300px;
+  background-color: rgb(36,37,41);
+  border-radius: 15px;
+width: 400px;
+  z-index: 2;
+  padding: 10px 20px;
+
+  &__arrange{
+    margin-top: 28px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.4);
+  }
+  &__total-price{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 15px;
+  }
+  &__game-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  &__game-img{
+    border-radius: 50%;
+  height: 40px;
+    width: 40px;
+   background-size:cover;
+    background-position: center;
+  }
+}
