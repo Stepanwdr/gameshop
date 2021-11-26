@@ -2,8 +2,14 @@ import React from 'react';
 import {calcTotalPrice} from "../../utils/CalcTotalPrice";
 import Button from "../button/button";
 import "./cart-menu.scss"
-const CartMenu = ({items, onClick}) => {
+import {useHistory} from "react-router-dom";
+import {ORDER_ROUTE} from "../../utils/RoutesConsts";
+const CartMenu = ({items }) => {
+    const history=useHistory()
     const totalPrice=calcTotalPrice(items)
+    const handleClick=()=>{
+        history.push(ORDER_ROUTE)
+    }
     return (
         <div className={'cart-menu'}>
             {    items.map(game =>
@@ -23,7 +29,7 @@ const CartMenu = ({items, onClick}) => {
                     <div className="cart-menu__total-price">
                         {totalPrice} AMD
                     </div>
-                    <Button type={"primary"} onClick={onClick}>Order</Button>
+                    <Button type={"primary"} onClick={handleClick}>Check Order</Button>
                 </div> : "Cart is Empty"
             }
         </div>

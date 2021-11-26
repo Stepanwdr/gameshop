@@ -1,0 +1,28 @@
+.game-page {
+
+  &__title {
+  }
+  &__content{
+    display: flex;
+  }
+  &__left{
+width: 70%;
+  }
+  &__right{
+    width: 30%;
+    position: relative;
+  }
+  &__paragraph{
+
+  }
+  &__buy{
+    position: absolute;
+right: 0;
+    bottom: -50px;
+  }
+}
+.secondary-text{
+  color: rgb(88,82,84);
+  font-size: 13px;
+  font-weight: bold;
+}
