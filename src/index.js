@@ -7,7 +7,7 @@ import {applyMiddleware, compose, createStore} from "redux";
 import {Provider} from "react-redux";
 import reducers from "./store/reducer";
 import {requestMiddleware} from "./helpers/redux-request";
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store=createStore(
     reducers,
@@ -22,9 +22,9 @@ requestMiddleware.on.fail = ((err) => {
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>
-      <HashRouter>
+      <BrowserRouter>
           <App />
-      </HashRouter>
+      </BrowserRouter>
       </Provider>
   </React.StrictMode>,
   document.getElementById('root')
