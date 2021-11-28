@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "https://stepanwdr.github.io/gameshop/static/js/main.75c20805.chunk.js",
-    "main.js.map": "https://stepanwdr.github.io/gameshop/static/js/main.75c20805.chunk.js.map",
-    "runtime-main.js": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js",
-    "runtime-main.js.map": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js.map",
-    "static/js/2.667c9cf3.chunk.js": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js",
-    "static/js/2.667c9cf3.chunk.js.map": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.map",
-    "static/js/3.67ce44f1.chunk.js": "https://stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js",
-    "static/js/3.67ce44f1.chunk.js.map": "https://stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js.map",
-    "index.html": "https://stepanwdr.github.io/gameshop/index.html",
-    "static/css/main.20683c91.chunk.css.map": "https://stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css.map",
-    "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt"
+    "main.css": "/gameshop/static/css/main.20683c91.chunk.css",
+    "main.js": "/gameshop/static/js/main.fd5e7ed4.chunk.js",
+    "main.js.map": "/gameshop/static/js/main.fd5e7ed4.chunk.js.map",
+    "runtime-main.js": "/gameshop/static/js/runtime-main.17698a72.js",
+    "runtime-main.js.map": "/gameshop/static/js/runtime-main.17698a72.js.map",
+    "static/js/2.523c35f6.chunk.js": "/gameshop/static/js/2.523c35f6.chunk.js",
+    "static/js/2.523c35f6.chunk.js.map": "/gameshop/static/js/2.523c35f6.chunk.js.map",
+    "static/js/3.67ce44f1.chunk.js": "/gameshop/static/js/3.67ce44f1.chunk.js",
+    "static/js/3.67ce44f1.chunk.js.map": "/gameshop/static/js/3.67ce44f1.chunk.js.map",
+    "index.html": "/gameshop/index.html",
+    "static/css/main.20683c91.chunk.css.map": "/gameshop/static/css/main.20683c91.chunk.css.map",
+    "static/js/2.523c35f6.chunk.js.LICENSE.txt": "/gameshop/static/js/2.523c35f6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d1228d5.js",
-    "static/js/2.667c9cf3.chunk.js",
+    "static/js/runtime-main.17698a72.js",
+    "static/js/2.523c35f6.chunk.js",
     "static/css/main.20683c91.chunk.css",
-    "static/js/main.75c20805.chunk.js"
+    "static/js/main.fd5e7ed4.chunk.js"
   ]
 }
