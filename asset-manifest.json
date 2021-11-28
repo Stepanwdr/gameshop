@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "https://stepanwdr.github.io/gameshop/static/js/main.ff72b8c8.chunk.js",
-    "main.js.map": "https://stepanwdr.github.io/gameshop/static/js/main.ff72b8c8.chunk.js.map",
+    "main.js": "https://stepanwdr.github.io/gameshop/static/js/main.75c20805.chunk.js",
+    "main.js.map": "https://stepanwdr.github.io/gameshop/static/js/main.75c20805.chunk.js.map",
     "runtime-main.js": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js",
     "runtime-main.js.map": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js.map",
     "static/js/2.667c9cf3.chunk.js": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2d1228d5.js",
     "static/js/2.667c9cf3.chunk.js",
     "static/css/main.20683c91.chunk.css",
-    "static/js/main.ff72b8c8.chunk.js"
+    "static/js/main.75c20805.chunk.js"
   ]
 }
