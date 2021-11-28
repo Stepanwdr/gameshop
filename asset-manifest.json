@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "stepanwdr.github.io/gameshop/static/js/main.4b583331.chunk.js",
-    "main.js.map": "stepanwdr.github.io/gameshop/static/js/main.4b583331.chunk.js.map",
-    "runtime-main.js": "stepanwdr.github.io/gameshop/static/js/runtime-main.6254513e.js",
-    "runtime-main.js.map": "stepanwdr.github.io/gameshop/static/js/runtime-main.6254513e.js.map",
-    "static/js/2.667c9cf3.chunk.js": "stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js",
-    "static/js/2.667c9cf3.chunk.js.map": "stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.map",
-    "static/js/3.67ce44f1.chunk.js": "stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js",
-    "static/js/3.67ce44f1.chunk.js.map": "stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js.map",
-    "index.html": "stepanwdr.github.io/gameshop/index.html",
-    "static/css/main.20683c91.chunk.css.map": "stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css.map",
-    "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt"
+    "main.css": "https://stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css",
+    "main.js": "https://stepanwdr.github.io/gameshop/static/js/main.ff72b8c8.chunk.js",
+    "main.js.map": "https://stepanwdr.github.io/gameshop/static/js/main.ff72b8c8.chunk.js.map",
+    "runtime-main.js": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js",
+    "runtime-main.js.map": "https://stepanwdr.github.io/gameshop/static/js/runtime-main.2d1228d5.js.map",
+    "static/js/2.667c9cf3.chunk.js": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js",
+    "static/js/2.667c9cf3.chunk.js.map": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.map",
+    "static/js/3.67ce44f1.chunk.js": "https://stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js",
+    "static/js/3.67ce44f1.chunk.js.map": "https://stepanwdr.github.io/gameshop/static/js/3.67ce44f1.chunk.js.map",
+    "index.html": "https://stepanwdr.github.io/gameshop/index.html",
+    "static/css/main.20683c91.chunk.css.map": "https://stepanwdr.github.io/gameshop/static/css/main.20683c91.chunk.css.map",
+    "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "https://stepanwdr.github.io/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6254513e.js",
+    "static/js/runtime-main.2d1228d5.js",
     "static/js/2.667c9cf3.chunk.js",
     "static/css/main.20683c91.chunk.css",
-    "static/js/main.4b583331.chunk.js"
+    "static/js/main.ff72b8c8.chunk.js"
   ]
 }
