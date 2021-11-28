@@ -1,11 +1,11 @@
 import React from 'react';
 import "./home-page.scss"
 import GameItem from "../../components/game-item/game-item";
-
+import img from "../../assets/bg.jpg"
 
 const GAMES = [
     {
-        image: '/game-covers/forza_5.jpeg',
+        image: img,
         title: 'Forza Horizon 5',
         genres: ['Гонки', 'Симулятор', 'Открытый мир'],
         price: 2343*7,
