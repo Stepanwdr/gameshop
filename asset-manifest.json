@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "/gameshop/static/js/main.4a4d6a04.chunk.js",
-    "main.js.map": "/gameshop/static/js/main.4a4d6a04.chunk.js.map",
+    "main.js": "/gameshop/static/js/main.dac44a3e.chunk.js",
+    "main.js.map": "/gameshop/static/js/main.dac44a3e.chunk.js.map",
     "runtime-main.js": "/gameshop/static/js/runtime-main.17698a72.js",
     "runtime-main.js.map": "/gameshop/static/js/runtime-main.17698a72.js.map",
-    "static/js/2.523c35f6.chunk.js": "/gameshop/static/js/2.523c35f6.chunk.js",
-    "static/js/2.523c35f6.chunk.js.map": "/gameshop/static/js/2.523c35f6.chunk.js.map",
+    "static/js/2.667c9cf3.chunk.js": "/gameshop/static/js/2.667c9cf3.chunk.js",
+    "static/js/2.667c9cf3.chunk.js.map": "/gameshop/static/js/2.667c9cf3.chunk.js.map",
     "static/js/3.67ce44f1.chunk.js": "/gameshop/static/js/3.67ce44f1.chunk.js",
     "static/js/3.67ce44f1.chunk.js.map": "/gameshop/static/js/3.67ce44f1.chunk.js.map",
     "index.html": "/gameshop/index.html",
     "static/css/main.20683c91.chunk.css.map": "/gameshop/static/css/main.20683c91.chunk.css.map",
-    "static/js/2.523c35f6.chunk.js.LICENSE.txt": "/gameshop/static/js/2.523c35f6.chunk.js.LICENSE.txt"
+    "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt",
+    "static/media/bg.af0fb627.jpg": "/gameshop/static/media/bg.af0fb627.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.17698a72.js",
-    "static/js/2.523c35f6.chunk.js",
+    "static/js/2.667c9cf3.chunk.js",
     "static/css/main.20683c91.chunk.css",
-    "static/js/main.4a4d6a04.chunk.js"
+    "static/js/main.dac44a3e.chunk.js"
   ]
 }
