@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./index.scss"
-import { BrowserRouter as Router } from "react-router-dom";
 import {applyMiddleware, compose, createStore} from "redux";
 import {Provider} from "react-redux";
 import reducers from "./store/reducer";
 import {requestMiddleware} from "./helpers/redux-request";
+import {HashRouter} from "react-router-dom";
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store=createStore(
     reducers,
@@ -22,9 +22,9 @@ requestMiddleware.on.fail = ((err) => {
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>
-      <Router>
+      <HashRouter>
           <App />
-      </Router>
+      </HashRouter>
       </Provider>
   </React.StrictMode>,
   document.getElementById('root')

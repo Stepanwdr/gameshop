@@ -60,7 +60,6 @@ const GAMES = [
     },
 ]
 const HomePage = () => {
-    console.log(GAMES)
     return (
         <div className={"home-page"}>
             {GAMES.map(game=><GameItem key={game.id} game={game}/>)}

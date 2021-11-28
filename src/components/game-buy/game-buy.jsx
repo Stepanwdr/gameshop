@@ -8,9 +8,7 @@ const GameBuy = ({game}) => {
     const dispatch = useDispatch()
     let {itemsInCart} = useSelector(state => state.cart)
     let isItemInCart
-    console.log(itemsInCart, 222)
     isItemInCart = itemsInCart.some(item => item.id === game.id)
-    console.log(isItemInCart, 555)
     const handleClick = (e) => {
         e.stopPropagation()
         if (isItemInCart) {
