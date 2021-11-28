@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "/gameshop/static/js/main.dac44a3e.chunk.js",
-    "main.js.map": "/gameshop/static/js/main.dac44a3e.chunk.js.map",
+    "main.js": "/gameshop/static/js/main.9609572a.chunk.js",
+    "main.js.map": "/gameshop/static/js/main.9609572a.chunk.js.map",
     "runtime-main.js": "/gameshop/static/js/runtime-main.17698a72.js",
     "runtime-main.js.map": "/gameshop/static/js/runtime-main.17698a72.js.map",
     "static/js/2.667c9cf3.chunk.js": "/gameshop/static/js/2.667c9cf3.chunk.js",
@@ -12,12 +12,17 @@
     "index.html": "/gameshop/index.html",
     "static/css/main.20683c91.chunk.css.map": "/gameshop/static/css/main.20683c91.chunk.css.map",
     "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt",
-    "static/media/bg.af0fb627.jpg": "/gameshop/static/media/bg.af0fb627.jpg"
+    "static/media/assassins_creed_valhalla.f9a0fe67.png": "/gameshop/static/media/assassins_creed_valhalla.f9a0fe67.png",
+    "static/media/battlefield_2042.4a9369f7.jpg": "/gameshop/static/media/battlefield_2042.4a9369f7.jpg",
+    "static/media/forza_5.0e2dcfe9.jpeg": "/gameshop/static/media/forza_5.0e2dcfe9.jpeg",
+    "static/media/gta_v.a022a113.jpeg": "/gameshop/static/media/gta_v.a022a113.jpeg",
+    "static/media/life_is_strange_true_colors.b8efa83e.jpeg": "/gameshop/static/media/life_is_strange_true_colors.b8efa83e.jpeg",
+    "static/media/rainbow_siege.7de9ce32.jpeg": "/gameshop/static/media/rainbow_siege.7de9ce32.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.17698a72.js",
     "static/js/2.667c9cf3.chunk.js",
     "static/css/main.20683c91.chunk.css",
-    "static/js/main.dac44a3e.chunk.js"
+    "static/js/main.9609572a.chunk.js"
   ]
 }
