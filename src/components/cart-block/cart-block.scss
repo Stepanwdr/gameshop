@@ -11,4 +11,26 @@
     cursor: pointer;
     position: relative;
   }
+  // Small devices (landscape phones, 576px and up)//մինչև
+  @media (max-width: 575.98px) {
+    &__total-price{
+     display: none;
+    }
+  }
+
+  // Small devices (landscape phones, less than 768px)//մինչև
+  @media (max-width: 767.98px) {
+
+
+  }
+
+  // Medium devices (tablets, less than 992px)//մինչև
+  @media (max-width: 991.98px) {
+
+  }
+
+  // Large devices (desktops, less than 1200px)//մինչև
+  @media (max-width: 1199.98px) {
+
+  }
 }

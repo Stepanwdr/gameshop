@@ -4,7 +4,7 @@
   left: -300px;
   background-color: rgb(36,37,41);
   border-radius: 15px;
-width: 400px;
+width: 469px;
   z-index: 2;
   padding: 10px 20px;
 
@@ -33,13 +33,34 @@ margin-bottom: 15px;
     background-position: center;
   }
 
-  @media (min-width: 320px) {
+
+  // Small devices (landscape phones, 576px and up)//մինչև
+  @media (max-width: 575.98px) {
     &{
-      left: -187px;
+      left: -285px;
       background-color: #242529;
-      border-radius: 15px;
-      width: 357px;
+      width: 320px;
+      flex-direction: column;
+      margin-top: 12px;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
     }
+
+  }
+
+  // Small devices (landscape phones, less than 768px)//մինչև
+  @media (max-width: 767.98px) {
+
+
+  }
+
+  // Medium devices (tablets, less than 992px)//մինչև
+  @media (max-width: 991.98px) {
+
+  }
+
+  // Large devices (desktops, less than 1200px)//մինչև
+  @media (max-width: 1199.98px) {
 
   }
 }

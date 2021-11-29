@@ -23,7 +23,7 @@ const GameBuy = ({game}) => {
                {game.price} AMD.
            </span>
             <Button type={!isItemInCart ? "primary" : "secondary"} onClick={handleClick}>
-                {!isItemInCart ? "Add Cart" : "Remove"}
+                {!isItemInCart ? "Add to cart" : "Remove"}
             </Button>
         </div>
     );

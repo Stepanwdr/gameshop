@@ -1,6 +1,12 @@
 *{
   box-sizing: border-box;
 }
+$maxWidth: 1440;
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,18 +16,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(25,26,28);
   color: white;
+  font-size: calc(24px + 16 * ((100vw - 320px) / (1440 - 320)));
+
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 .App{
-  max-width: 1200px;
-  margin: 0 auto;
-padding: 0 40px;
+  max-width: 1440px;
+  display: flex;
+
 color: white;
+  // Small devices (landscape phones, 576px and up)//
+  @media (max-width: 575.98px) {
+
+  }
+
+  // Small devices (landscape phones, less than 768px)մինչև
+  @media (max-width: 767.98px) {
+
+
+  }
+
+  // Medium devices (tablets, less than 992px)//մինչև
+  @media (max-width: 991.98px) {
+
+  }
+
+  // Large devices (desktops, less than 1200px)//մինչև
+  @media (max-width: 1199.98px) {
+
+  }
 }
 a{
   color: white;
   text-decoration: none;
+}
+h1{
+ @include adaptiv-font(40,12);
+}
+h2{
+  @include adaptiv-font(30,12);
+}
+p,span,div{
+  @include adaptiv-font(18,14);
 }
