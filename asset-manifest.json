@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gameshop/static/css/main.20683c91.chunk.css",
-    "main.js": "/gameshop/static/js/main.9609572a.chunk.js",
-    "main.js.map": "/gameshop/static/js/main.9609572a.chunk.js.map",
+    "main.css": "/gameshop/static/css/main.0c2f5f4d.chunk.css",
+    "main.js": "/gameshop/static/js/main.519b91ea.chunk.js",
+    "main.js.map": "/gameshop/static/js/main.519b91ea.chunk.js.map",
     "runtime-main.js": "/gameshop/static/js/runtime-main.17698a72.js",
     "runtime-main.js.map": "/gameshop/static/js/runtime-main.17698a72.js.map",
     "static/js/2.667c9cf3.chunk.js": "/gameshop/static/js/2.667c9cf3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.67ce44f1.chunk.js": "/gameshop/static/js/3.67ce44f1.chunk.js",
     "static/js/3.67ce44f1.chunk.js.map": "/gameshop/static/js/3.67ce44f1.chunk.js.map",
     "index.html": "/gameshop/index.html",
-    "static/css/main.20683c91.chunk.css.map": "/gameshop/static/css/main.20683c91.chunk.css.map",
+    "static/css/main.0c2f5f4d.chunk.css.map": "/gameshop/static/css/main.0c2f5f4d.chunk.css.map",
     "static/js/2.667c9cf3.chunk.js.LICENSE.txt": "/gameshop/static/js/2.667c9cf3.chunk.js.LICENSE.txt",
     "static/media/assassins_creed_valhalla.f9a0fe67.png": "/gameshop/static/media/assassins_creed_valhalla.f9a0fe67.png",
     "static/media/battlefield_2042.4a9369f7.jpg": "/gameshop/static/media/battlefield_2042.4a9369f7.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.17698a72.js",
     "static/js/2.667c9cf3.chunk.js",
-    "static/css/main.20683c91.chunk.css",
-    "static/js/main.9609572a.chunk.js"
+    "static/css/main.0c2f5f4d.chunk.css",
+    "static/js/main.519b91ea.chunk.js"
   ]
 }
