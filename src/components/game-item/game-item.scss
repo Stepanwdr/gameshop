@@ -1,15 +1,17 @@
+
 .game-item{
-  width: 300px;
-  height: 320px;
+  width: 25%;
   color: white;
   background-color: rgb(36,36,41);
   border-radius: 15px;
   cursor: pointer;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   position: relative;
   &:not(:last-child){
-    margin-bottom: 30px;
     margin-right: 50px;
   }
+
   &__details{
 padding: 10px 20px;
   }
@@ -31,5 +33,40 @@ position: absolute;
     right: 18px;
 bottom: -18px;
   }
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 320px) {
+    &{
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    &:not(:last-child){
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 576px) {
+    &{
+      width: calc(50% - 50px);
+    }
+    &:not(:last-child){
+      margin-right: 50px;
+    }
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
 
-}
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    &{
+      width: 25%;
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+
+  }
+  }
+
+

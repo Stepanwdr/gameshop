@@ -11,6 +11,7 @@ const GamePage = () => {
     if(!game){
         return null
     }
+    console.log(game.description.split(1,5),555)
     return (
         <div className={"game-page"}>
             <h1 className="game-page__title">
@@ -30,7 +31,7 @@ const GamePage = () => {
                     <GameCover image={game.image}/>
                     <p className={"game-page__paragraph"}>{game.description}</p>
                     <p className={'secondary-text'}>The Favourite Tags For This Item:</p>
-                    {game.genres.map(genre => <GameGenre genre={genre}/>)}
+                    {game.genres.map(genre => <GameGenre genre={genre} key={genre}/>)}
                     <div className={"game-page__buy"}>
                         <GameBuy game={game}/>
                     </div>

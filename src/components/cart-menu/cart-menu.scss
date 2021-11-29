@@ -32,4 +32,14 @@ margin-bottom: 15px;
    background-size:cover;
     background-position: center;
   }
+
+  @media (min-width: 320px) {
+    &{
+      left: -187px;
+      background-color: #242529;
+      border-radius: 15px;
+      width: 357px;
+    }
+
+  }
 }

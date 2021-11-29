@@ -7,7 +7,6 @@ import {useHistory} from "react-router-dom";
 import {GAME_ROUTE} from "../../utils/RoutesConsts";
 import {useDispatch} from "react-redux";
 import setCurrentGame from "../../store/action/game";
-
 const GameItem = ({game}) => {
     const history=useHistory()
     const dispatch=useDispatch()
@@ -15,6 +14,8 @@ const GameItem = ({game}) => {
         dispatch(setCurrentGame(game))
         history.push(GAME_ROUTE + `${game.title}`)
     }
+
+
     return (
         <div className={"game-item"} onClick={handleClick}>
             <GameCover image={game.image}/>
@@ -24,7 +25,7 @@ const GameItem = ({game}) => {
                   {game.genres.map(genre =><GameGenre genre={genre}/>  )}
                 </div>
                 <div className={"game-item__description"}>
-
+                    {game.description.split('',55)} ...
                 </div>
                 <div className={"game-item__buy"}>
                    <GameBuy game={game}/>
