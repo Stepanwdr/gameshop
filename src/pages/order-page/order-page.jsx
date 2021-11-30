@@ -7,7 +7,7 @@ import {calcTotalPrice} from "../../utils/CalcTotalPrice";
 const OrderPage = () => {
     const items = useSelector(state => state.cart.itemsInCart)
     if (items.length < 1) {
-        return <h1>Your Cart Is Empty</h1>
+        return <h1 className={"order-page__cart-status"}>Your Cart Is Empty</h1>
     }
     return (
         <div className={'order-page'}>
